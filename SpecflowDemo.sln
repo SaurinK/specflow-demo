@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpecflowDemo", "SpecflowDemo\SpecflowDemo.csproj", "{1F0C9811-521C-4715-89CF-B52EB9C7B59E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpecflowDemo.Specs.XUnit", "SpecflowDemo.Specs\SpecflowDemo.Specs.XUnit.csproj", "{A5A21F50-3CBD-4705-A2E0-2E41224DEB36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpecflowDemo.Specs.XUnit", "SpecflowDemo.Specs.XUnit\SpecflowDemo.Specs.XUnit.csproj", "{A5A21F50-3CBD-4705-A2E0-2E41224DEB36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecflowDemo.Specs.NUnit", "SpecflowDemo.Specs.NUnit\SpecflowDemo.Specs.NUnit.csproj", "{4351FC41-80FF-4BD7-BF0F-FD99A5794776}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpecflowDemo.Specs.MSTest", "SpecflowDemo.Specs.MSTest\SpecflowDemo.Specs.MSTest.csproj", "{BC05557F-0709-4014-B45A-8A5D6ED357A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecflowDemo.Specs.NUnit", "SpecflowDemo.Specs.NUnit\SpecflowDemo.Specs.NUnit.csproj", "{2C08BCAE-CEC7-4C68-84E3-255EA590DB04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +25,14 @@ Global
 		{A5A21F50-3CBD-4705-A2E0-2E41224DEB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5A21F50-3CBD-4705-A2E0-2E41224DEB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5A21F50-3CBD-4705-A2E0-2E41224DEB36}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4351FC41-80FF-4BD7-BF0F-FD99A5794776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4351FC41-80FF-4BD7-BF0F-FD99A5794776}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4351FC41-80FF-4BD7-BF0F-FD99A5794776}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4351FC41-80FF-4BD7-BF0F-FD99A5794776}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC05557F-0709-4014-B45A-8A5D6ED357A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC05557F-0709-4014-B45A-8A5D6ED357A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC05557F-0709-4014-B45A-8A5D6ED357A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC05557F-0709-4014-B45A-8A5D6ED357A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C08BCAE-CEC7-4C68-84E3-255EA590DB04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C08BCAE-CEC7-4C68-84E3-255EA590DB04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C08BCAE-CEC7-4C68-84E3-255EA590DB04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C08BCAE-CEC7-4C68-84E3-255EA590DB04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

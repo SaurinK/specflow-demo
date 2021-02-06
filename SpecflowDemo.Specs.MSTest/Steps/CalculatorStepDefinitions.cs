@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using TechTalk.SpecFlow;
 
-namespace SpecflowDemo.Specs.Steps
+namespace SpecflowDemo.Specs.MSTest.Steps
 {
     [Binding]
     public sealed class CalculatorStepDefinitions
